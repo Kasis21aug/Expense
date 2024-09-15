@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 1rem;
+}
+
+.form {
+    margin-bottom: 1.5rem;
+}
+
+.input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+.summary-title {
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-bottom: 1rem;
+}
+
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.expense-table thead {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.expense-table th, .expense-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+.expense-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.expense-table tbody tr:hover {
+    background-color: #e3f2fd;
+    transition: background-color 0.3s;
+}
+
+.total-amount {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-top: 1rem;
+}
+
+/* Button Styles */
+.edit-btn {
+    background-color: #f39c12;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #e67e22;
+    transform: scale(1.05);
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
